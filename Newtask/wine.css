@@ -1,0 +1,188 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+}
+body{
+  background-color: rgb(24, 23, 23);
+}
+p{
+  color: white;
+  font-size: 14px;
+}
+
+.page{
+  
+  width: 100%;
+  
+}
+
+
+.header{
+ position: fixed;
+ top: 0;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(63, 62, 62);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  z-index: 1;
+  
+}
+main{
+  position: relative;
+  top: 20px;
+}
+
+ul{
+  float: left;
+  display: inline-flex;
+ 
+  
+}
+
+
+ul li{
+  
+  list-style-type: none;
+  
+  padding: 10px 15px;
+
+  
+
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: small;
+  
+}
+
+
+
+.first-image{
+ text-align: center;
+margin-top: 50px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 50px;
+color: white;
+line-height: 20px;
+border-bottom: 1px solid white;
+padding-bottom: 40px;
+
+
+}
+.first-image img{
+  border: 4px solid gray;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-bottom: 20px;
+ 
+}
+h3{
+  margin-bottom: 30px;
+  color: white;
+}
+
+.image-row{
+  display: flex;
+  border-bottom: 1px solid white;
+  padding: 20px;
+}
+img{
+  width: 100%;
+  border: 3px solid white;
+  margin-bottom: 20px;
+}
+
+.image{
+ flex: 33.33%;
+ padding: 20px;
+ 
+}
+.image p{
+ 
+  line-height: 20px;
+  
+}
+
+
+.bottom{
+  display: flex;
+  padding: 50px 30px;
+}
+
+.pics{
+  width: 50%;
+  margin-right: 80px;
+ 
+  
+}
+.pics img{
+  height: 100%;
+  object-fit: cover;
+}
+.inputs{
+  position: relative;
+  left: 8%;
+  border: none;
+  outline: none;
+}
+.inputs p{
+  position: absolute;
+ top: 8px;
+ left:-45% ;
+ 
+
+
+}
+.type{
+  margin-top: 50px;
+}
+
+.type input{
+  border: none;
+  outline: none;
+  border-radius: 5px;
+
+}
+
+.check-box{
+  position: relative;
+  margin-bottom: 30px;
+
+}
+
+.check-box label{
+  position: absolute;
+  left: -45%;
+  width: 200px;
+  color: rgb(224, 224, 65);
+  font-size: small;
+
+}
+#name{
+  height: 120px;
+  width: 300px;
+ 
+  
+}
+.name{
+  height: 40px;
+  width: 300px;
+}
+
+ul li:hover{
+ border-bottom: 3px solid yellow;
+
+}
+
