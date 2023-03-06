@@ -184,5 +184,28 @@ img{
 ul li:hover{
  border-bottom: 3px solid yellow;
 
+}@media only screen and (max-width: 768px) {
+
+  .bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .pics{
+    display: block;
+    width: 100%;
+    text-align: center;
+   
+  }
+  .inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+
+  }
+
 }
 
